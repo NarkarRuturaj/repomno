@@ -10,6 +10,7 @@ import resources.base;
 public class TwoTest extends base {
 	@Test
 	public void testTwo() throws IOException, InterruptedException {
+		
 		System.out.println("test two");
 	WebDriver driver = intializeDriver();
 	driver.get("http://tutorialsninja.com/demo/index.php?route=product/category&path=52");
